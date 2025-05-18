@@ -13,8 +13,8 @@
         <li>
           <RouterLink
             to="/"
-            class="hover:bg-primary flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
-            exactActiveClass="bg-primary text-white"
+            class="hover:bg-p-1 flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
+            exactActiveClass="bg-p-1 text-white"
           >
             <span class="material-icons !text-3xl">apps</span>
             <span>Dashboard</span>
@@ -23,8 +23,8 @@
         <li class="mt-2">
           <RouterLink
             to="/users"
-            class="hover:bg-primary flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
-            exactActiveClass="bg-primary text-white"
+            class="hover:bg-p-1 flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
+            exactActiveClass="bg-p-1 text-white"
           >
             <span class="material-icons-outlined !text-3xl">group</span>
             <span>Users</span>
@@ -36,7 +36,7 @@
     <ul>
       <li>
         <div
-          class="hover:bg-primary flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
+          class="hover:bg-p-1 flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
         >
           <span class="material-icons-outlined !text-3xl">settings</span>
           <span>Settings</span>
@@ -44,7 +44,7 @@
       </li>
       <li>
         <div
-          class="hover:bg-primary flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
+          class="hover:bg-p-1 flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
         >
           <span class="material-icons-outlined !text-3xl">logout</span>
           <span>Logout</span>
