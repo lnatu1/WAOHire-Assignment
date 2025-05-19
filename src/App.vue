@@ -1,3 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import DashboardNav from "@components/dashboard/MainNav.vue";
+</script>
 
-<template></template>
+<template>
+  <RouterView />
+</template>

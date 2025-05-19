@@ -1,5 +1,38 @@
-# Vue 3 + TypeScript + Vite
+# User Dashboard App (Vue 3 + Pinia + Vite)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a user dashboard built with Vue 3, TypeScript, Pinia, and Vite. It fetches and displays user data from an external API and supports search, sorting, and pagination through a modular and maintainable architecture.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+
+### User Dashboard
+
+- Displays a list of users retrieved from an external API.
+- Table-based layout with dynamic data.
+- Sidebar navigation with a clear layout.
+
+### State Management
+
+- Centralized state using Pinia.
+- Stores user data, loading states, search input, pagination state, and sorting configuration.
+- Efficient filtering, sorting, and paginating using computed properties and reactive logic.
+
+### Search, Sort, and Pagination
+
+- Full-text search across all fields.
+- Sortable columns with toggle between ascending and descending order.
+- Pagination with options to display 5 or 10 rows per page.
+
+## Project Structure
+
+- Vue 3 with Composition API and TypeScript
+- Pinia for state management
+- Vite for build tooling and local development
+- Tailwind CSS for styling
+
+## Getting Started
+
+Install dependencies and run the project:
+
+```bash
+npm install && npm run dev or yarn && yarn dev
+```

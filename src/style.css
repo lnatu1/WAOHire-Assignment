@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@import "material-icons/iconfont/material-icons.css";
+
+@theme {
+  --color-p-1: #6267e8;
+}
+
+body {
+  background-color: #faf5f5;
+}
