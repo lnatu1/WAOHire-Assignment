@@ -1,8 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import type { RouteRecordRaw } from "vue-router";
-import DashboardView from "@views/DashboardView.vue";
 import DashboardLayout from "@layouts/DashboardLayout.vue";
-import UsersView from "@views/UsersView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,12 +10,12 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: "",
         name: "Dashboard",
-        component: () => DashboardView,
+        component: () => import("@views/DashboardView.vue"),
       },
       {
         path: "users",
         name: "Users",
-        component: () => UsersView,
+        component: () => import("@views/UsersView.vue"),
       },
     ],
   },

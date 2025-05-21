@@ -6,7 +6,7 @@
           class="size-12"
           src="https://avatar.iran.liara.run/public/boy"
           alt=""
-        />
+        >
         <div>Admin</div>
       </div>
       <ul class="mt-4">
@@ -14,7 +14,7 @@
           <RouterLink
             to="/"
             class="hover:bg-p-1 flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
-            exactActiveClass="bg-p-1 text-white"
+            exact-active-class="bg-p-1 text-white"
           >
             <span class="material-icons !text-3xl">apps</span>
             <span>Dashboard</span>
@@ -24,7 +24,7 @@
           <RouterLink
             to="/users"
             class="hover:bg-p-1 flex cursor-pointer items-center gap-2 rounded-md p-2 duration-200 hover:text-white"
-            exactActiveClass="bg-p-1 text-white"
+            exact-active-class="bg-p-1 text-white"
           >
             <span class="material-icons-outlined !text-3xl">group</span>
             <span>Users</span>
